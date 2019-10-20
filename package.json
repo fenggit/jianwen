@@ -1,0 +1,29 @@
+{
+  "name": "jianwen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenggit/jianwen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenggit/jianwen/issues"
+  },
+  "homepage": "https://github.com/fenggit/jianwen#readme",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
+    "vuepress": "^1.2.0"
+  }
+}
